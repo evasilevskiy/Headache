@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Headache</string>
+    <string name="switchHeadache">Голова болит</string>
+    <string name="title_text">Оцените самочувствие</string>
+    <string name="status_start">Инициализация и запрос данных</string>
+    <string name="status_sending">Отправка данных</string>
+    <string name="status_success">Успешный обмен данными</string>
+    <string name="status_fail">Сервер недоступен</string>
+    <string name="go_grafana">Посмотреть графики</string>
+</resources>

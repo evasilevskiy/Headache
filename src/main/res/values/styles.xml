@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="switchHeadache" parent="Theme.AppCompat.Light">
+    <!-- Неактивное состояние -->
+    <item name="colorSwitchThumbNormal">@android:color/darker_gray</item>
+    <!-- Активное состояние -->
+    <item name="colorControlActivated">@android:color/holo_red_light</item>
+</style>
+</resources>
