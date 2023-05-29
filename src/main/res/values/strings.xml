@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Headache</string>
+    <string name="app_name">Головоболь</string>
     <string name="switchHeadache">Голова болит</string>
     <string name="title_text">Оцените самочувствие</string>
     <string name="status_start">Инициализация и запрос данных</string>
