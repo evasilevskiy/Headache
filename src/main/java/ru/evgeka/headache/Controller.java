@@ -15,8 +15,8 @@ import okhttp3.Response;
 public class Controller {
 
     int result;
-    final static String BASE_GET_URL = "http://37.46.131.252:15307/health/headache/get_state/Evgeniy";
-    final static String BASE_PUT_URL = "http://37.46.131.252:15307/health/headache/set_state/Evgeniy";
+    final static String BASE_GET_URL = "http://37.46.131.252:15307/health/headache/get_state/Maria";
+    final static String BASE_PUT_URL = "http://37.46.131.252:15307/health/headache/set_state/Maria";
     OkHttpClient client;
 
     Controller() {
