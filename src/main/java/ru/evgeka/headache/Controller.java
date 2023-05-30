@@ -6,7 +6,6 @@ import java.io.IOException;
 
 import okhttp3.Call;
 import okhttp3.Callback;
-import okhttp3.FormBody;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -16,8 +15,8 @@ import okhttp3.Response;
 public class Controller {
 
     int result;
-    final static String BASE_GET_URL = "http://37.46.131.252:15307/health/headache/get_state/Maria";
-    final static String BASE_PUT_URL = "http://37.46.131.252:15307/health/headache/set_state/Maria";
+    final static String BASE_GET_URL = "http://37.46.131.252:15307/health/headache/get_state/Evgeniy";
+    final static String BASE_PUT_URL = "http://37.46.131.252:15307/health/headache/set_state/Evgeniy";
     OkHttpClient client;
 
     Controller() {
@@ -77,7 +76,7 @@ public class Controller {
             }
 
             @Override
-            public void onResponse(@NonNull Call call, @NonNull Response response) throws IOException {
+            public void onResponse(@NonNull Call call, @NonNull Response response) {
 
                 result = 1;
             }
